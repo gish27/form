@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     <title>Creating a Simple Form </title>
+     </head>
+     <body>
+          <form>
+               <label for="name">Name:</label>
+               <input type="text" pattern="[a-zA-Z'-'\s]*"><br></br>
+               <label for="pnmbr">Phone Number:</label>
+               <input type="text" name="Phone Number" pattern="[0-9]{10}" 
+                      title="Phone number with 10 digit with 0-9"><br></br>
+               <textarea maxlength="150">
+                Basic Details...
+               </textarea><br></br>
+               <label for="name">PAN Card:</label>
+               <input type="text" class="normal" 
+                      name="PAN Card" size="10" maxlength="10" 
+                      style="text-transform:uppercase" /><br></br>
+                <label for="avatar">Upload a document:</label>
+               <input type="file"
+       id="avatar" name="avatar"
+                      accept="document"><br></br>
+                <div>
+                <input type="Submit" id="Submit">
+                            Thank you!
+                </div>
+            </form>
+          </form>
+     </body>
+</html>
